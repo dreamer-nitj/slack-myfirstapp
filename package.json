@@ -1,0 +1,25 @@
+{
+  "name": "slack-myfirstapp",
+  "version": "1.0.0",
+  "description": "This is the app code for myfirstapp for slack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamer-nitj/slack-myfirstapp.git"
+  },
+  "author": "Ankit Kumar <ankitbansal.nitj@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamer-nitj/slack-myfirstapp/issues"
+  },
+  "homepage": "https://github.com/dreamer-nitj/slack-myfirstapp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request-promise-native": "^1.0.5",
+    "string-tokenizer": "0.0.8"
+  }
+}
