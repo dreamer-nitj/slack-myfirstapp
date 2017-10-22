@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+   - "5"
+before_install:
+   - export PORT=8080
+   - export SLACK_TOKEN=GZfJH8YAdflY96wgJcQyXqd6
+   - export REBRANDLY_APIKEY=f30ea0875a304236a8f0851c8c641677
+before_script:
+   - npm install
+script:
+   - node src/server &
